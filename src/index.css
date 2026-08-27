@@ -1,0 +1,151 @@
+@import "tailwindcss";
+
+
+@font-face {
+  font-family: 'Lalezar';
+  src: url('./assets/fonts/Lalezar.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Yekan';
+  src: url('./assets/fonts/Yekan.ttf') format('truetype');
+  font-display: swap;
+}
+
+
+@theme {
+  --color-brand-50:  #fbf2f1;
+  --color-brand-100: #f6dedd;
+  --color-brand-200: #ecbbb9;
+  --color-brand:     #a3232b;  
+  --color-brand-600: #8f1f26;
+  --color-brand-700: #7c1a20;
+  --color-brand-800: #641318;
+
+  --color-ink:   #2b2422;       /* متن اصلی */
+  --color-muted: #6b625d;       /* متن فرعی */
+  --color-cream: #f7f3ea;       /* پس‌زمینه گرم */
+  --color-sand:  #ece5d6;       /* حاشیه‌ها */
+  --color-gold:  #b8862f;       /* تأکید طلایی (قیمت/برچسب) */
+  --color-navy:  #1f3a5f;       /* سرمه‌ای */
+
+  --font-display: 'Lalezar', system-ui, sans-serif;
+  --font-body: 'Yekan', system-ui, sans-serif;
+}
+
+/* ---------------------------------------------------------------
+   پایه
+---------------------------------------------------------------- */
+html {
+  scroll-behavior: smooth;
+}
+
+html, body {
+  font-family: var(--font-body);
+  color: var(--color-ink);
+}
+
+body {
+  background-color: var(--color-cream);
+  /* بافت بسیار ملایم برای حس گرم فروشگاه فرش */
+  background-image: radial-gradient(circle at 1px 1px, rgba(163, 35, 43, 0.04) 1px, transparent 0);
+  background-size: 22px 22px;
+}
+
+.lalezar,
+.font-display {
+  font-family: var(--font-display);
+  letter-spacing: 0;
+}
+
+/* فوکوس واضح برای دسترس‌پذیری کیبورد */
+:where(a, button, input, textarea, [tabindex]):focus-visible {
+  outline: 2px solid var(--color-brand);
+  outline-offset: 2px;
+  border-radius: 6px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* اسکرول‌بار ظریف */
+::-webkit-scrollbar { width: 10px; }
+::-webkit-scrollbar-track { background: var(--color-sand); }
+::-webkit-scrollbar-thumb {
+  background: var(--color-brand);
+  border-radius: 999px;
+  border: 2px solid var(--color-sand);
+}
+
+
+.app-container {
+  max-width: 1280px;
+  margin-inline: auto;
+  padding-inline: 1rem;
+}
+
+.section-title {
+  font-family: var(--font-display);
+  font-size: clamp(1.5rem, 1.2rem + 1.5vw, 2rem);
+  line-height: 1.3;
+  position: relative;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.section-title::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  inline-size: 56px;
+  block-size: 4px;
+  border-radius: 999px;
+  background: linear-gradient(90deg, var(--color-brand), var(--color-gold));
+  inset-inline-start: 0;
+}
+
+.btn-primary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  font-weight: 700;
+  padding: 0.65rem 1.25rem;
+  border-radius: 0.75rem;
+  background: var(--color-brand);
+  color: #fff;
+  transition: background-color .2s ease, transform .15s ease, box-shadow .2s ease;
+  cursor: pointer;
+}
+.btn-primary:hover { background: var(--color-brand-700); }
+.btn-primary:active { transform: translateY(1px); }
+
+.btn-outline {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  font-weight: 700;
+  padding: 0.55rem 1.1rem;
+  border-radius: 0.75rem;
+  border: 2px solid var(--color-brand);
+  color: var(--color-brand);
+  background: transparent;
+  transition: background-color .2s ease, color .2s ease;
+  cursor: pointer;
+  text-decoration: none;
+}
+.btn-outline:hover { background: var(--color-brand); color: #fff; }
+
+.surface {
+  background: #fff;
+  border: 1px solid var(--color-sand);
+  border-radius: 1rem;
+  box-shadow: 0 6px 20px -12px rgba(43, 36, 34, 0.25);
+}

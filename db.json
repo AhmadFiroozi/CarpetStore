@@ -1,0 +1,321 @@
+{
+    "carpets":[
+        {
+            "id":1,
+            "Type":"تابلو فرش",
+            "desc":"تابلو فرش دست بافت محرابی قم",
+            "comb":"75رج",
+            "size":"42*60",
+            "color":"آبی",
+            "Typeoffiber":"تمام ابریشم",
+            "price":46900000,
+            "image":"/images/tablo-Abi.jpg"
+        },
+          {
+            "id":2,
+            "Type":"تابلو فرش",
+            "desc":"تابلو فرش دستبافت ضامن آهو ",
+            "comb":"50رج",
+            "size":"107*74",
+            "color":"کرم",
+            "Typeoffiber":"پشم وابریشم",
+            "price":11200000,
+            "image":"/images/tablo-Ahoo.jpg"
+        },
+           {
+            "id":3,
+            "Type":"تابلو فرش",
+            "desc":"تابلو فرش قوچ ",
+            "comb":"50رج",
+            "size":"66*88",
+            "color":"مشکی",
+            "Typeoffiber":"پشم وابریشم",
+            "price":53000000,
+            "image":"/images/tablo-ghooch.jpg"
+        },
+        {
+            "id":4,
+            "Type":"فرش ماشینی",
+            "desc":"فرش ماشینی ساتین",
+            "comb":"1200شانه",
+            "size":"4*3",
+            "color":"سبز",
+            "Typeoffiber":"پلی استر",
+            "price":72861600,
+            "image":"/images/mashini-sabz.jpg"
+        },
+          {
+            "id":5,
+            "Type":"فرش ماشینی",
+            "desc":"فرش ماشینی نوستالژیا سبز",
+            "comb":"1200شانه",
+            "size":"4*3",
+            "color":"سبز",
+            "Typeoffiber":"پلی استر",
+            "price":72861600,
+            "image":"/images/mashini-sabzroshan.jpg"
+        },
+           {
+            "id":6,
+            "Type":"فرش ماشینی",
+            "desc":"فرش ماشینی نوستالژیا خاکستری",
+            "comb":"1200شانه",
+            "size":"4*3",
+            "color":"طوسی",
+            "Typeoffiber":"پلی استر",
+            "price":72861600,
+            "image":"/images/mashini-toosi.jpg"
+        },
+             {
+            "id":7,
+            "Type":"فرش ماشینی",
+            "desc":" فرش ماشینی نوستالژیا سبزآبی",
+            "comb":"1200شانه",
+            "size":"4*3",
+            "color":"آبی",
+            "Typeoffiber":"پلی استر",
+            "price":72861600,
+            "image":"/images/mashini-Abi.jpg"
+        },
+            {
+            "id":8,
+            "Type":"فرش ماشینی",
+            "desc":" فرش ماشینی نوستالژیا کرم",
+            "comb":"1200شانه",
+            "size":"4*3",
+            "color":"آبی",
+            "Typeoffiber":"پلی استر",
+            "price":72861600,
+            "image":"/images/mashini-kerem.jpg"
+        },
+            {
+            "id":9,
+            "Type":"ماشینی مدرن",
+            "desc":" فرش ماشینی مدرن لاکی",
+            "comb":"1000شانه",
+            "size":"4*3",
+            "color":"قرمز",
+            "Typeoffiber":"پلی استر",
+            "price":63672000,
+            "image":"/images/mashini-modern-ghermez.jpg"
+        },
+            {
+            "id":10,
+            "Type":"ماشینی مدرن",
+            "desc":" فرش ماشینی مدرن کرم",
+            "comb":"1000شانه",
+            "size":"4*3",
+            "color":"کرم",
+            "Typeoffiber":"پلی استر",
+            "price":63672000,
+            "image":"/images/mashini-modern-kerm.jpg"
+        },
+          {
+            "id":11,
+            "Type":"ماشینی مدرن",
+            "desc":" فرش ماشینی مدرن طوسی",
+            "comb":"1000شانه",
+            "size":"4*3",
+            "color":"طوسی",
+            "Typeoffiber":"پلی استر",
+            "price":63672000,
+            "image":"/images/mashini-moden-toosi.jpg"
+        },
+          {
+            "id":12,
+            "Type":"ماشینی مدرن",
+            "desc":" فرش ماشینی مدرن طوسی",
+            "comb":"1000شانه",
+            "size":"4*3",
+            "color":"طوسی",
+            "Typeoffiber":"پلی استر",
+            "price":63672000,
+            "image":"/images/mashini-moden-toosi.jpg"
+        },
+          {
+            "id":13,
+            "Type":"ماشینی مدرن",
+            "desc":" فرش ماشینی مدرن مشکی",
+            "comb":"1000شانه",
+            "size":"4*3",
+            "color":"مشکی",
+            "Typeoffiber":"پلی استر",
+            "price":63672000,
+            "image":"/images/mashini-moden-black.jpg"
+        },
+          {
+            "id":14,
+            "Type":"ماشینی مدرن",
+            "desc":" فرش ماشینی مدرن مشکی",
+            "comb":"1000شانه",
+            "size":"4*3",
+            "color":"مشکی",
+            "Typeoffiber":"پلی استر",
+            "price":63672000,
+            "image":"/images/mashini-moden-black2.jpg"
+        },  {
+            "id":15,
+            "Type":"فرش کودک",
+            "desc":"فرش ماشینی کودک طرح جنگل حیوانات",
+            "comb":"700شانه",
+            "size":"3*2",
+            "color":"سبز",
+            "Typeoffiber":"پلی استر",
+            "price":25503000,
+            "image":"/images/koodak-green.jpg"
+        }
+        ,  {
+            "id":16,
+            "Type":"فرش کودک",
+            "desc":"فرش ماشینی کودک طرح جاده حیوانات",
+            "comb":"700شانه",
+            "size":"3*2",
+            "color":"آبی",
+            "Typeoffiber":"پلی استر",
+            "price":25503000,
+            "image":"/images/koodak-Abi.jpg"
+        },
+        {
+            "id":17,
+            "Type":"فرش کودک",
+            "desc":"فرش ماشینی کودک طرح پرنسس",
+            "comb":"700شانه",
+            "size":"3*2",
+            "color":"صورتی",
+            "Typeoffiber":"پلی استر",
+            "price":25503000,
+            "image":"/images/koodak-sorati.jpg"
+        },
+        {
+            "id":18,
+            "Type":"فرش کودک",
+            "desc":"فرش ماشینی کودک طرح لی لی",
+            "comb":"700شانه",
+            "size":"3*2",
+            "color":"صورتی",
+            "Typeoffiber":"پلی استر",
+            "price":25503000,
+            "image":"/images/koodak-sorati2.jpg"
+        }
+        ,
+        {
+            "id":19,
+            "Type":"فرش کودک",
+            "desc":"فرش ماشینی کودک طرح جوجه رنگی",
+            "comb":"700شانه",
+            "size":"3*2",
+            "color":"طوسی",
+            "Typeoffiber":"پلی استر",
+            "price":25503000,
+            "image":"/images/koodak-toosi.jpg"
+        }
+        ,
+        {
+            "id":20,
+            "Type":"فرش کودک",
+            "desc":"فرش ماشینی کودک طرح پنگوئن ها",
+            "comb":"700شانه",
+            "size":"3*2",
+            "color":"سبز",
+            "Typeoffiber":"پلی استر",
+            "price":25503000,
+            "image":"/images/koodak-sabz.jpg"
+        }
+        ,
+        {
+            "id":21,
+            "Type":"فرش گرد",
+            "desc":"فرش ماشینی فانتزی گرد",
+            "comb":"700شانه",
+            "size":"-",
+            "color":"مشکی",
+            "Typeoffiber":"پلی استر",
+            "price":7278000,
+            "image":"/images/gerd-black.jpg"
+        }
+        ,
+        {
+            "id":22,
+            "Type":"فرش گرد",
+            "desc":"فرش نوستالوژیا گرد",
+            "comb":"700شانه",
+            "size":"-",
+            "color":"سبز",
+            "Typeoffiber":"پلی استر",
+            "price":7278000,
+            "image":"/images/gerd-sabz.jpg"
+        }
+         ,
+        {
+            "id":23,
+            "Type":"فرش گرد",
+            "desc":"فرش چهل تکه گرد",
+            "comb":"700شانه",
+            "size":"-",
+            "color":"آبی",
+            "Typeoffiber":"پلی استر",
+            "price":7278000,
+            "image":"/images/gerd-blue.jpg"
+        }
+        ,
+        {
+            "id":24,
+            "Type":"فرش گرد",
+            "desc":"فرش ورساچه گرد",
+            "comb":"700شانه",
+            "size":"-",
+            "color":"آبی",
+            "Typeoffiber":"پلی استر",
+            "price":7278000,
+            "image":"/images/gerd-Abi.jpg"
+        }
+          ,
+        {
+            "id":25,
+            "Type":"فرش دستبافت",
+            "desc":"فرش دستباف سه متری قم",
+            "comb":"80رج",
+            "size":"212*133",
+            "color":"آبی",
+            "Typeoffiber":"نمام ابریشم",
+            "price":72500000,
+            "image":"/images/dast-baft1.jpg"
+        }
+         ,
+        {
+            "id":26,
+            "Type":"فرش دستبافت",
+            "desc":"فرش دستباف ذرع و نیم قم",
+            "comb":"55رج",
+            "size":"152*100",
+            "color":"کرم",
+            "Typeoffiber":"کرک",
+            "price":72500000,
+            "image":"/images/dast-baft2.jpg"
+        }
+        ,
+        {
+            "id":27,
+            "Type":"فرش دستبافت",
+            "desc":"فرش دستباف قدیمی شش متری کاشان",
+            "comb":"40رج",
+            "size":"304*204",
+            "color":"قرمز",
+            "Typeoffiber":"پشم",
+            "price":76500000,
+            "image":"/images/dast-baft3.jpg"
+        }
+        ,
+        {
+            "id":28,
+            "Type":"فرش دستبافت",
+            "desc":"فرش دستباف نیم متری قم",
+            "comb":"80رج",
+            "size":"92*62",
+            "color":"مشکی",
+            "Typeoffiber":"تمام ابریشم",
+            "price":76500000,
+            "image":"/images/dast-baft4.jpg"
+        }
+    ]
+}

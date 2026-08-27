@@ -1,0 +1,50 @@
+.hero-slider {
+  border-radius: 1.25rem;
+  overflow: hidden;
+  box-shadow: 0 20px 50px -30px rgba(43, 36, 34, 0.6);
+}
+
+.hero-slide {
+  position: relative;
+}
+
+.hero-img {
+  display: block;
+  width: 100%;
+  height: 460px;
+  object-fit: cover;
+}
+
+@media (max-width: 640px) {
+  .hero-img { height: 300px; }
+}
+
+/* لایهٔ تیرهٔ محو در پایین تصویر تا متن خوانا بماند */
+.hero-scrim {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to top,
+    rgba(20, 14, 12, 0.75) 0%,
+    rgba(20, 14, 12, 0.15) 45%,
+    rgba(20, 14, 12, 0) 70%
+  );
+}
+
+.hero-caption {
+  text-align: right;
+  right: 8%;
+  left: auto;
+  bottom: 8%;
+}
+
+.hero-caption h3 {
+  font-size: clamp(1.5rem, 1rem + 3vw, 2.75rem);
+  margin-bottom: 0.35rem;
+  text-shadow: 0 2px 12px rgba(0, 0, 0, 0.4);
+}
+
+.hero-caption p {
+  font-size: clamp(0.9rem, 0.8rem + 0.6vw, 1.15rem);
+  color: #f3ede2;
+}

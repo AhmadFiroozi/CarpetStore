@@ -1,0 +1,38 @@
+/* هنگام اسکرول خودکار، navbar چسبان روی عنوان بخش نیفتد */
+.products-section {
+  scroll-margin-top: 88px;
+}
+
+.filter-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  background: var(--color-brand-100);
+  color: var(--color-brand-700);
+  font-weight: 600;
+  font-size: 0.85rem;
+  padding: 0.35rem 0.8rem;
+  border-radius: 999px;
+  border: none;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+.filter-chip:hover { background: var(--color-brand-200); }
+
+/* اسکلت بارگذاری */
+.skeleton-card {
+  height: 320px;
+  border-radius: 1rem;
+  background: linear-gradient(
+    100deg,
+    var(--color-sand) 30%,
+    #f4efe4 50%,
+    var(--color-sand) 70%
+  );
+  background-size: 200% 100%;
+  animation: skeleton-shimmer 1.4s infinite;
+}
+@keyframes skeleton-shimmer {
+  0% { background-position: 200% 0; }
+  100% { background-position: -200% 0; }
+}

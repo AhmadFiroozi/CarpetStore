@@ -1,0 +1,48 @@
+.carpet-image {
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.carpet-image img {
+  max-height: 520px;
+  width: 100%;
+  object-fit: contain;
+  border-radius: 0.75rem;
+}
+
+.carpet-price {
+  color: var(--color-brand);
+  font-weight: 700;
+  font-size: 2rem;
+}
+.carpet-price .unit {
+  font-size: 1rem;
+  color: var(--color-muted);
+  font-weight: 400;
+}
+
+.carpet-specs {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+.carpet-specs li {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.7rem 0.25rem;
+  border-bottom: 1px dashed var(--color-sand);
+}
+.spec-label {
+  min-width: 90px;
+  font-weight: 700;
+  color: var(--color-ink);
+}
+.spec-value {
+  color: var(--color-muted);
+}
+
+.btn-primary.is-added {
+  background: #2f8f4e;
+}
