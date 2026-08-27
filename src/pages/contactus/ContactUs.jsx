@@ -32,15 +32,15 @@ function ContactUs() {
 
             <div className="contact-row">
               <FaPhoneFlip className="contact-icon" />
-              <span dir="ltr">0904 673 7515</span>
+              <span dir="ltr">09905585418</span>
             </div>
             <div className="contact-row">
               <MdMail className="contact-icon" />
-              <span dir="ltr">info@globalacceltalent.ir</span>
+              <span dir="ltr">arfiroozi09@gmail.com</span>
             </div>
             <div className="contact-row items-start">
               <IoLocationSharp className="contact-icon mt-1" />
-              <span>تهران، پارادایس هاب، مرکز نوآوری‌های نوفل لوشاتو</span>
+              <span>تهران، منطقه 11</span>
             </div>
           </div>
 

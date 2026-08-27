@@ -33,11 +33,11 @@ function Footer() {
           <h3 className="font-bold mb-3 text-white">تماس با ما</h3>
           <ul className="space-y-3 text-sm text-sand/80">
             <li className="flex items-center gap-2">
-              <FaPhoneFlip /> <span dir="ltr">0904 673 7515</span>
+              <FaPhoneFlip /> <span dir="ltr">09905585418</span>
             </li>
             <li className="flex items-start gap-2">
               <IoLocationSharp className="mt-1 shrink-0" />
-              <span>تهران، پارادایس هاب، مرکز نوآوری‌های نوفل لوشاتو</span>
+              <span>تهران، منطقه 11</span>
             </li>
           </ul>
           <div className="flex gap-4 mt-4 text-2xl">
